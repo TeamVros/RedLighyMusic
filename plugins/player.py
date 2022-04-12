@@ -308,7 +308,7 @@ async def play(_, message: Message):
             reply_markup=keyboard,
         )
         os.remove("final.png")
-        return await lel.delete()"
+        return await lel.delete()
     else:
         await clientbot.pytgcalls.join_group_call(
                 chat_id, 
